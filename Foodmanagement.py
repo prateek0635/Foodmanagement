@@ -3,6 +3,10 @@
 import datetime
 def gettime():
     return datetime.datetime.now()
+
+def gupta:
+    print("Welcome to Food Management System")
+
 def meal():
     a=gettime()
     n=int(input("Enter 1 for prateek , 2 for akash and 3 for Vivek ,4 for dheeraj"))
@@ -59,6 +63,6 @@ def meal():
             #
 b=0
 while(b==0):
-    print("Welcome the the meal management system\n")
+    gupta()
     meal()
     b=int(input("Press 1 to EXIT!!, Press 0 to continue"))
